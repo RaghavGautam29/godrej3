@@ -22,12 +22,7 @@ import wa from './assets/wa.svg';
 import { FaPhoneAlt } from "react-icons/fa";
 
 const App = () => {
-  const [nav, setNav] = useState(false);
-
-  const toggleNav = () => {
-    setNav(!nav);
-  };
-
+  const [nav] = useState(false);
   const links = [
     { id: 1, link: 'Overview' },
     { id: 2, link: 'Pricing' },
@@ -56,7 +51,7 @@ const App = () => {
             ))}
           </ul>
           <div
-            onClick={toggleNav}
+          
             className="cursor-pointer pr-4 text-gray-500 md:hidden"
           >
             {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
@@ -67,7 +62,7 @@ const App = () => {
                 <li
                   key={id}
                   className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                  onClick={toggleNav}
+                 
                 >
                   {link}
                 </li>
@@ -130,7 +125,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center pt-[160px] md:pt-[50px]'>
+      <div className='flex justify-center pt-[180px] md:pt-[50px]'>
         <h1 className='text-2xl md:text-3xl text-medium font-mono underline decoration-launch text-center'>
           Godrej Bengal Lamps Overview
         </h1>
@@ -170,7 +165,7 @@ const App = () => {
         <h1 className='text-3xl md:text-5xl font-serif text-center'>
           Godrej Woodscapes 
         </h1>
-        <h1 className='text-center pt-[50px] font-serif text-lg md:text-xl'>At Budigere Cross, Bangalore</h1></div>
+        <h1 className='text-center pt-[30px] font-serif text-lg md:text-xl'>At Budigere Cross, Bangalore</h1></div>
         <div className='text-justify p-6 md:p-12'>
         <p className='pt-[20px]'>Welcome to the world of Godrej Woodscapes Budigere Cross, where luxury meets tranquility and convenience merges with style. Nestled in the heart of Bangalore, this upcoming residential property by Godrej Properties is set to redefine modern living. With its impeccable design, state-of-the-art amenities, and strategic location near Budigere Cross Whitefield, Godrej Woodscapes promises to be a haven for those seeking a perfect blend of comfort and elegance.</p>
         <p className='pt-[20px]'>Situated near Budigere Cross in Whitefield, the project offers excellent connectivity to major hubs of Bangalore, ensuring convenience for daily commuting. Close to schools, hospitals, shopping centers, and entertainment options, making it an ideal location for families and professionals alike. Godrej Woodscapes offers a variety of configurations, including 2, 3, 3.5, and 4 bedroom apartments, each thoughtfully designed to maximize space and comfort. The apartments are designed to ensure ample natural light and ventilation, creating a pleasant and healthy living environment. </p>     
@@ -262,7 +257,6 @@ const App = () => {
                             <li className='flex gap-2 p-3'><FaCheck />Central Park With Beautiful Views</li>
                             <li className='flex gap-2 p-3'><FaCheck />85% of Open Space</li>
                             <li className='flex gap-2 p-3'><FaCheck />3 Lakh Sqft of Retail Convenience</li>
-
                         </ul>
                     </div>
                 </div>
@@ -295,7 +289,7 @@ const App = () => {
     <h1 className='text-center pt-[30px] font-serif text-4xl md:text-6xl text-darky'>Master Plan</h1>
     <img  className='pt-[40px]' src={masterplan1} alt="map2" />
     </div>
-    <div className='bg-darky text-white pt-[10px] text-justify p-6'>
+    <div className='bg-darky text-white text-justify p-6'>
         <p>Godrej Woodscapes Budigere Cross (Bengal Lamps) RERA No:. PRM/KA/RERA/1251/446/PR/170524/006882
 
 Disclaimer:The Content Mentioned In This Website Is For Information Purposes Only, Prices Mentioned Are Subject To Change Without Notice & Properties Mentioned Are Subject To Availability. Images Are For Representation Purposes Only. This Is Not The Official Website. This Website Belongs To Official Channel Partner Of Mana Group. We May Also Send Updates To The Mobile / Email Id Registered With Us. All Rights Reserved.</p>
