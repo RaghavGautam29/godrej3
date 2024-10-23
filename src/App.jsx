@@ -170,7 +170,7 @@ const App = () => {
         <h1 className='text-3xl md:text-5xl font-serif text-center'>
           Godrej Woodscapes 
         </h1>
-        <h1 className='text-center pt-[30px] font-serif text-lg md:text-xl'>At Budigere Cross, Bangalore</h1></div>
+        <h1 className='text-center pt-[50px] font-serif text-lg md:text-xl'>At Budigere Cross, Bangalore</h1></div>
         <div className='text-justify p-6 md:p-12'>
         <p className='pt-[20px]'>Welcome to the world of Godrej Woodscapes Budigere Cross, where luxury meets tranquility and convenience merges with style. Nestled in the heart of Bangalore, this upcoming residential property by Godrej Properties is set to redefine modern living. With its impeccable design, state-of-the-art amenities, and strategic location near Budigere Cross Whitefield, Godrej Woodscapes promises to be a haven for those seeking a perfect blend of comfort and elegance.</p>
         <p className='pt-[20px]'>Situated near Budigere Cross in Whitefield, the project offers excellent connectivity to major hubs of Bangalore, ensuring convenience for daily commuting. Close to schools, hospitals, shopping centers, and entertainment options, making it an ideal location for families and professionals alike. Godrej Woodscapes offers a variety of configurations, including 2, 3, 3.5, and 4 bedroom apartments, each thoughtfully designed to maximize space and comfort. The apartments are designed to ensure ample natural light and ventilation, creating a pleasant and healthy living environment. </p>     
@@ -295,7 +295,7 @@ const App = () => {
     <h1 className='text-center pt-[30px] font-serif text-4xl md:text-6xl text-darky'>Master Plan</h1>
     <img  className='pt-[40px]' src={masterplan1} alt="map2" />
     </div>
-    <div className='bg-darky text-white text-justify p-6'>
+    <div className='bg-darky text-white pt-[10px] text-justify p-6'>
         <p>Godrej Woodscapes Budigere Cross (Bengal Lamps) RERA No:. PRM/KA/RERA/1251/446/PR/170524/006882
 
 Disclaimer:The Content Mentioned In This Website Is For Information Purposes Only, Prices Mentioned Are Subject To Change Without Notice & Properties Mentioned Are Subject To Availability. Images Are For Representation Purposes Only. This Is Not The Official Website. This Website Belongs To Official Channel Partner Of Mana Group. We May Also Send Updates To The Mobile / Email Id Registered With Us. All Rights Reserved.</p>
